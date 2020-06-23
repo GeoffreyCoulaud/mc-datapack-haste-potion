@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "P"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ore"
+        },
+        "P": {
+            "item": "minecraft:potion",
+            "Potion": "thick"
+        }
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "CustomPotionEffects": {
+            Id:3,
+            Amplifier:1,
+            Duration:6000
+        },
+        "CostomPotionColor": 16145408,
+        "display": {
+            Name:"Potion du mineur",
+            Lore: [
+                "Donne un effet de Haste II pour 5 minutes. "
+                "Attention, de grands pouvoirs impliquent de grandes responsabilités !"
+                ]
+            },
+        "count": 1
+    }
+}
